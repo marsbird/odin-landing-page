@@ -41,7 +41,6 @@ body > div {
 .header {
     justify-content: space-between;
     align-items: center;
-
     background-color: #1F2937;
 }
 
@@ -66,7 +65,6 @@ body > div {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    
     background-color: #1F2937;
 }
 
@@ -136,7 +134,25 @@ body > div {
 /* separator */
 
 .quotes {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #E5E7EB;
+}
 
+.quote-maintext {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-subtext {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* separator */
