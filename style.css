@@ -12,6 +12,11 @@ img {
     max-height: 20rem;
 }
 
+.information img {
+    max-height: 10rem;
+    border-radius: 0.5rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -25,15 +30,15 @@ body {
     padding: 0;
 }
 
-/* this is a temporary solution - I think the better way might be to create more flex containers within the body > div elements and set max-widths */
 body > div {
+    /* this is a temporary solution - I think the better way might be to create more flex containers within the body > div elements and set max-widths */
     padding: 1rem 5rem;
+    display: flex;
 }
 
 /* separator */
 
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 
@@ -58,7 +63,6 @@ body > div {
 /* separator */
 
 .hero {
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -99,7 +103,34 @@ body > div {
 /* separator */
 
 .information {
+    flex-flow: column;
+    align-items: center;
+    gap: 1rem;
+}
 
+.information-maintext {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.information-subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.information-element {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.information-subtext {
+    color: #E5E7EB;
 }
 
 /* separator */
