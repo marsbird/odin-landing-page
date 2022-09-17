@@ -1,0 +1,79 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* separator */
+
+body {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* this is a temporary solution - I think the better way might be to create more flex containers within the body > div elements and set max-widths */
+body > div {
+    padding: 1rem 5rem;
+}
+
+/* separator */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #1F2937;
+}
+
+.header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* separator */
+
+.hero {
+
+}
+
+/* separator */
+
+.information {
+
+}
+
+/* separator */
+
+.quotes {
+
+}
+
+/* separator */
+
+.calltoaction {
+
+}
+
+/* separator */
+
+.footer {
+
+}
