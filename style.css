@@ -8,6 +8,10 @@ ul {
     list-style: none;
 }
 
+img {
+    max-height: 10rem;
+}
+
 /* separator */
 
 body {
