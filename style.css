@@ -23,6 +23,13 @@ div
     text-decoration: none;
 }
 
+button {
+    background: #3882F6;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+}
+
 .width-container {
     justify-content: space-between;
     /* ! I'm not sure whether flex-basis OR max-width/flex:1 is the better choice here */
@@ -45,12 +52,6 @@ div
         color: #E5E7EB;
     }
 
-    button {
-        background: #3882F6;
-        font-weight: bold;
-        border-radius: 0.5rem;
-        padding: 0.5rem 2rem;
-    }
 
 /* separator */
 
@@ -59,15 +60,16 @@ div
         padding: 1rem 5rem;
     }
 
-/* separator */
+/* * HEADER */
 
 .header {
     background-color: #1F2937;
 }
 
-.header .width-container {
+/* ! remove later if no longer necessary */
+/* .header .width-container {
     justify-content: space-between;
-}
+} */
 
 .logo {
     font-weight: bold;
@@ -80,17 +82,13 @@ div
     gap: 1rem;
 }
 
-/* separator */
+/* * HERO */
 
 .hero {
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
     background-color: #1F2937;
 }
 
 .hero-subcontainer {
-    display: flex;
     flex-flow: column;
     align-items: flex-start;
     gap: 1rem;
