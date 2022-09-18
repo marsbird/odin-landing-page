@@ -36,34 +36,18 @@ button {
     /* flex-basis: 125ch; */
     max-width: 125ch; 
     flex: 1;
-    gap: 3rem;
+    gap: 2rem 3rem;
 }
-
-    .hero img {
-        max-height: 20rem;
-    }
-
-    .information img {
-        max-height: 10rem;
-        border-radius: 0.5rem;
-    }
 
     a {
         color: #E5E7EB;
-    }
-
-
-/* separator */
-
-    body > div {
-        /* this is a temporary solution - I think the better way might be to create more flex containers within the body > div elements and set max-widths */
-        padding: 1rem 5rem;
     }
 
 /* * HEADER */
 
 .header {
     background-color: #1F2937;
+    padding: 2rem 5rem;
 }
 
 /* ! remove later if no longer necessary */
@@ -86,6 +70,7 @@ button {
 
 .hero {
     background-color: #1F2937;
+    padding: 2rem 5rem;
 }
 
 .hero-subcontainer {
@@ -105,12 +90,18 @@ button {
     font-size: 18px;
 }
 
-/* separator */
+.hero img {
+    max-height: 20rem;
+}
+
+/* * INFORMATION */
 
 .information {
+    padding: 2rem 5rem;
+}
+
+.information .width-container {
     flex-flow: column;
-    align-items: center;
-    gap: 1rem;
 }
 
 .information-maintext {
@@ -120,22 +111,24 @@ button {
 }
 
 .information-subcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     gap: 1rem;
 }
 
 .information-element {
-    display: flex;
     flex-flow: column;
-    align-items: center;
-    text-align: center;
+    flex-basis: 0;
     gap: 1rem;
+    text-align: center;
 }
 
 .information-subtext {
     color: #E5E7EB;
+}
+
+.information img {
+    max-height: 10rem;
+    border-radius: 0.5rem;
 }
 
 /* separator */
