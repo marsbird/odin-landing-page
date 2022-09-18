@@ -2,36 +2,6 @@ html {
     font-family: Roboto, sans-serif;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-img {
-    max-height: 20rem;
-}
-
-.information img {
-    max-height: 10rem;
-    border-radius: 0.5rem;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-}
-
-button {
-    background: #3882F6;
-    font-weight: bold;
-    border: none;
-    border-radius: 0.5rem;
-    padding: 0.5rem 2rem;
-}
-
-/* separator */
-
 body {
     display: flex;
     flex-flow: column;
@@ -39,28 +9,69 @@ body {
     padding: 0;
 }
 
-body > div {
-    /* this is a temporary solution - I think the better way might be to create more flex containers within the body > div elements and set max-widths */
-    padding: 1rem 5rem;
+div
+,button
+,ul
+,a {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
 }
+
+.width-container {
+    flex-basis: 100ch;
+}
+
+    .hero img {
+        max-height: 20rem;
+    }
+
+    .information img {
+        max-height: 10rem;
+        border-radius: 0.5rem;
+    }
+
+    a {
+        color: #E5E7EB;
+    }
+
+    button {
+        background: #3882F6;
+        font-weight: bold;
+        border-radius: 0.5rem;
+        padding: 0.5rem 2rem;
+    }
+
+/* separator */
+
+    body > div {
+        /* this is a temporary solution - I think the better way might be to create more flex containers within the body > div elements and set max-widths */
+        padding: 1rem 5rem;
+    }
 
 /* separator */
 
 .header {
-    justify-content: space-between;
-    align-items: center;
     background-color: #1F2937;
 }
 
-.header .logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
+.header .width-container {
+    justify-content: space-between;
 }
 
-.header ul {
-    display: flex;
+.logo {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.navbar {
+    font-size: 18px;
     gap: 1rem;
 }
 
