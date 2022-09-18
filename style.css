@@ -32,8 +32,6 @@ button {
 
 .width-container {
     justify-content: space-between;
-    /* ! I'm not sure whether flex-basis OR max-width/flex:1 is the better choice here */
-    /* flex-basis: 125ch; */
     min-width: 100ch;
     max-width: 130ch; 
     flex: 1;
@@ -133,15 +131,18 @@ button {
     border-radius: 0.5rem;
 }
 
-/* separator */
+/* * QUOTES */
 
 .quotes {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
     background-color: #E5E7EB;
+    padding: 2rem 5rem;
+}
+
+.quotes .width-container {
+    flex-flow: column;
+    flex: none;
+    width: 50ch;
+    height: auto;
 }
 
 .quote-maintext {
