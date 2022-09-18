@@ -34,7 +34,8 @@ button {
     justify-content: space-between;
     /* ! I'm not sure whether flex-basis OR max-width/flex:1 is the better choice here */
     /* flex-basis: 125ch; */
-    max-width: 125ch; 
+    min-width: 100ch;
+    max-width: 130ch; 
     flex: 1;
     gap: 2rem 3rem;
 }
@@ -77,6 +78,7 @@ button {
     flex-flow: column;
     align-items: flex-start;
     gap: 1rem;
+    /* min-width: 40ch; */
 }
 
 .hero-maintext {
