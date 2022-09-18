@@ -24,7 +24,12 @@ div
 }
 
 .width-container {
-    flex-basis: 100ch;
+    justify-content: space-between;
+    /* ! I'm not sure whether flex-basis OR max-width/flex:1 is the better choice here */
+    /* flex-basis: 125ch; */
+    max-width: 125ch; 
+    flex: 1;
+    gap: 3rem;
 }
 
     .hero img {
