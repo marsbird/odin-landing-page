@@ -38,10 +38,6 @@ button {
     gap: 2rem 3rem;
 }
 
-    a {
-        color: #E5E7EB;
-    }
-
 /* * HEADER */
 
 .header {
@@ -63,6 +59,10 @@ button {
 .navbar {
     font-size: 18px;
     gap: 1rem;
+}
+
+.header a {
+    color: #E5E7EB;
 }
 
 /* * HERO */
@@ -158,15 +158,20 @@ button {
     font-weight: bold;
 }
 
-/* separator */
+/* * CALL TO ACTION */
 
 .calltoaction {
+    padding: 2rem 5rem;
+}
+
+.calltoaction .width-container {
     justify-content: center;
-    align-items: center;
+    flex: none;
+    width: 50ch;
+    height: auto;
 }
 
 .calltoaction-subcontainer {
-    display: flex;
     justify-content: space-between;
     gap: 5rem;
     padding: 2rem 3rem;
@@ -176,14 +181,12 @@ button {
 
 .calltoaction-text {
     color: #F9FAF8;
+    flex-flow: column;
+    align-items: flex-start;
 }
 
 .calltoaction-maintext {
     font-weight: bold;
-}
-
-.calltoaction-subtext {
-    
 }
 
 .calltoaction button {
