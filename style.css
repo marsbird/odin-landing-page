@@ -150,7 +150,7 @@ iframe {
 
 .quote-maintext {
     color: #1F2937;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: lighter;
     font-style: italic;
 }
@@ -186,6 +186,7 @@ iframe {
 .calltoaction-text {
     flex-flow: column;
     align-items: flex-start;
+    max-width: 50ch;
 }
 
 .calltoaction-maintext {
@@ -211,5 +212,10 @@ iframe {
 }
 
 .footer .width-container {
-    justify-content: center;
+    flex-flow: column;
+    gap: 0.5rem;
+}
+
+.footer-subcontainer {
+    gap: 3rem;
 }
