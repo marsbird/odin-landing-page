@@ -29,10 +29,14 @@ body > div {
 }
 
 button {
-    background: #3882F6;
+    background-color: hsl(129, 89%, 28%);
     font-weight: bold;
     border-radius: 0.5rem;
     padding: 0.5rem 2rem;
+}
+
+iframe {
+    border-radius: 1rem;
 }
 
 .width-container {
@@ -97,6 +101,7 @@ button {
 /* * INFORMATION */
 
 .information {
+    background-color: #F9FAF8;
 }
 
 .information .width-container {
@@ -133,7 +138,7 @@ button {
 /* * QUOTES */
 
 .quotes {
-    background-color: #E5E7EB;
+    background-color: hsl(168, 15%, 75%);
 }
 
 .quotes .width-container {
@@ -159,7 +164,9 @@ button {
 
 /* * CALL TO ACTION */
 
-.calltoaction {}
+.calltoaction {
+    background-color: #F9FAF8;
+}
 
 .calltoaction .width-container {
     justify-content: center;
@@ -173,7 +180,7 @@ button {
     gap: 5rem;
     padding: 2rem 3rem;
     border-radius: 1rem;
-    background-color: #3882F6;
+    background-color: hsl(129, 89%, 28%);
 }
 
 .calltoaction-text {
