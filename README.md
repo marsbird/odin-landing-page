@@ -1,6 +1,9 @@
 # odin-landing-page
 
-images courtesy of 
-- [Ezra Comeau, via Pexels](https://www.pexels.com/photo/landscape-photography-of-mountain-and-body-of-water-2387418/)
-- [Franceso Ungaro, via Pexels](https://www.pexels.com/photo/photo-of-forest-with-fog-1671324/)
-- [Jacob Colvin, via Pexels](https://www.pexels.com/photo/scenic-photo-of-forest-with-sunlight-1757363/)
+## Birds of Prospect Park
+
+This project was created as a capstone for the Flexbox module of the [Odin Project](https://www.theodinproject.com/about). 
+At this point is is only viewable on desktop - I'll be learning how to make the project look nice on mobile devices soon!
+
+All images were sourced from the [Macaulay Library](https://www.macaulaylibrary.org/) maintained by the Cornell Ornithology Lab and ebird.org, and are linked accordingly.
+The logo art was designed by [Icongeek27 on Flaticon](https://www.flaticon.com/free-icon/heron_4584751).
