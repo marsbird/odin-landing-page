@@ -46,7 +46,8 @@ button {
 /* * HEADER */
 
 .header {
-    background-color: #1F2937;
+    background-color: hsl(169, 47%, 20%);
+    padding-bottom: 0;
 }
 
 .logo {
@@ -68,7 +69,7 @@ button {
 /* * HERO */
 
 .hero {
-    background-color: #1F2937;
+    background-color: hsl(169, 47%, 20%);
 }
 
 .hero-subcontainer {
@@ -90,6 +91,7 @@ button {
 
 .hero img {
     max-height: 20rem;
+    border-radius: 2rem;
 }
 
 /* * INFORMATION */
@@ -198,7 +200,7 @@ button {
 /* separator */
 
 .footer {
-    background-color: #1F2937;
+    background-color: hsl(169, 47%, 20%);
 }
 
 .footer .width-container {
