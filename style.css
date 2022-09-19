@@ -63,6 +63,7 @@ iframe {
 
 .logo img {
     max-height: 3rem;
+    filter: drop-shadow(0 0 0.3rem hsl(169, 47%, 40%));
 }
 
 .navbar {
